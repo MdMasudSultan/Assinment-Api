@@ -2,18 +2,13 @@
 
 * {
     padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-:root {
-    --tenne-tawny: #d65108;
-    --tenne-tawny-dark: #b54507;
+    box-sizing: border-box;
 }
 
 body {
     font-weight: 300;
-    font-size: 1.05rem;
+    margin-top: 20px;
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;
 
@@ -23,7 +18,7 @@ body {
 #nav-tital {
     width: 200px;
     float: left;
-    /* display: block; */
+
 }
 
 
@@ -83,14 +78,7 @@ body {
     font-size: 1.05rem;
 }
 
-.text {
-    opacity: 0.8;
-}
 
-.title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
 
 /*  */
 
@@ -119,6 +107,7 @@ body {
 
 .meal-result {
     margin-top: 30px;
+
 }
 
 
@@ -137,6 +126,7 @@ body {
 
 .meal-name {
     padding: 1.5rem 0.5rem;
+
 }
 
 .meal-name h3 {
@@ -162,18 +152,7 @@ body {
     padding-bottom: 1rem;
 }
 
-.recipe-category {
-    background: #fff;
-    font-weight: 600;
-    color: var(--tenne-tawny);
-    display: inline-block;
-    padding: 0.2rem 0.5rem;
-    border-radius: 0.3rem;
-    -webkit-border-radius: 0.3rem;
-    -moz-border-radius: 0.3rem;
-    -ms-border-radius: 0.3rem;
-    -o-border-radius: 0.3rem;
-}
+
 
 
 
